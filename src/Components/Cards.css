@@ -1,0 +1,39 @@
+.card {
+  width: 300px;
+  height: 330px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  border-radius: 2rem;
+  /* border-color: rgb(255, 0, 64) ;
+    border-width: 400rem;
+    border-style: dashed; */
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  gap: 2em;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card img {
+  background-color: orange;
+  margin-bottom: 15px;
+  height: 150px;
+}
+
+.card:hover {
+  background-color: light rgb(196, 196, 66);
+  color: rgb(203, 107, 10);
+  cursor: pointer;
+  transform: scale(1.15);
+  transition: all 1s ease;
+}

@@ -1,0 +1,67 @@
+  .navbar-brand{
+padding-left: 10px; 
+font-size: 100px;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ /* logo daalne k baad font size increase kyu nhi ho rh a hai */ */
+  .container-fluid{
+    background-color: rgb(9, 38, 66) !important;
+}  
+
+/* .nav-content {
+    display: inline-block;
+    align-items: center;
+    background: #2c4fa1;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+}
+.nav-logo {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    padding-left: 1cm;
+    padding-bottom: 1cm;
+    padding-top: 0cm;
+}
+.menu-list {
+    position: relative;
+    display: inline-block;
+    min-width: 250px;
+    text-align: center;
+    left:50px;
+    height: 200px;
+    padding-top: 1cm;
+    float: center;
+    font-size: 2cm;
+    font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu-list ul#menu {
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+    font-size: 2cm;
+    font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#menu li {
+    list-style: none;
+    padding: 10px 10px;
+    margin: 0 0.3vh;
+    font-size: 2cm;
+    font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#menu li a {
+  color: rgb(133, 23, 23);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2cm;
+    font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
