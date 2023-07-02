@@ -10,9 +10,10 @@ function Navbar() {
    
    <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
+    
     <a class="navbar-brand" href="#">
       <img src={Logo}  width="180" height="120" class="d-inline-block align-text-top"/>
-      THE MORNING NEWS
+         THE MORNING NEWS
     </a>
   </div>
 </nav> }

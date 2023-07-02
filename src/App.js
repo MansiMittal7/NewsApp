@@ -4,11 +4,6 @@ import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Cards from "./Components/Cards";
 
-
-
-
-
-
 function App() {
   
    const [array, setarray] = useState([])
@@ -49,34 +44,34 @@ function App() {
 
   return (
     <>
-    <div>
-      <input
+    <Navbar></Navbar>
+       
+    <div className="search">
+      <input className="input"
       
        onChange={e=> setquery(e.target.value)}
        type="search"
-       placeholder="Search Here"
+       placeholder="Search the TOPIC Here"
        value={query}
       
       >
       </input>
 
-      <button onClick={HandleSearchmansi}>Search</button>
+      <button className="searchbutton" onClick={HandleSearchmansi}>Search</button>
     </div>
 
 
-      <Navbar></Navbar>
-       
+      
       <div className="cardsbg">
         {/* <img src={background} background-size="cover" alt="background" /> */}
       </div>
-      {/* <Search/> */}
-      {/* <Pagination/> */}
+      
       <div className="main">
         {
 
           array.map(function(e){
             return(
-              <Cards
+              <Cards className="card"
                 title={e.title}
                 image={e.urlToImage}
                 description={e.description}
