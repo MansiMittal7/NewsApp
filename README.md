@@ -1,3 +1,9 @@
+# Preview
+![image](https://github.com/Arish82/NewsApp/assets/76985066/9e1aabb5-5f0d-4239-aa1d-1d4050a210d4)
+
+![image](https://github.com/Arish82/NewsApp/assets/76985066/9c6580d0-2b7d-45de-a30c-ca81aeb27d11)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
