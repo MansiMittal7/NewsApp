@@ -44,32 +44,18 @@ function App() {
 
   return (
     <>
-    <Navbar></Navbar>
-       
-    <div className="search">
-      <input className="input"
-      
-       onChange={e=> setquery(e.target.value)}
-       type="search"
-       placeholder="Search the TOPIC Here"
-       value={query}
-      
-      >
-      </input>
-
-      <button className="searchbutton" onClick={HandleSearchmansi}>Search</button>
-    </div>
+    <Navbar query={query} setquery={setquery} HandleSearchmansi={HandleSearchmansi} />
 
 
       
-      <div className="cardsbg">
+      {/* <div className="cardsbg"> */}
         {/* <img src={background} background-size="cover" alt="background" /> */}
-      </div>
+      {/* </div> */}
       
-      <div className="main">
+      <div className="main pt-5">
         {
-
           array.map(function(e){
+            console.log("arish",e);
             return(
               <Cards className="card"
                 title={e.title}
